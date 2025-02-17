@@ -1,35 +1,46 @@
-#🛫 Flight Price Prediction using Machine Learning
+# Flight Price Prediction using Machine Learning
 
-✨ Project Overview
+## __Project Overview__
 
-This project focuses on predicting flight ticket prices based on various factors such as airline, departure time, number of stops, and more. Using a Random Forest Regressor, we develop a model that accurately estimates flight ticket prices based on historical data.
+This project aims to predict flight ticket prices based on various factors such as airline, departure time, number of stops, and more. A Random Forest Regressor is used to develop a model that accurately estimates flight ticket prices by analyzing historical data.
 
-📌 Key Features
+## __Key Features__
 
-Data Preprocessing: Handled missing values, encoded categorical features, and performed feature selection.
-Exploratory Data Analysis (EDA): Visualized feature correlations and analyzed important factors affecting flight prices.
-Machine Learning Model: Implemented a Random Forest Regressor for price prediction.
-Performance Evaluation: Measured model accuracy using Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R² Score.
-Final Submission: Generated predictions and formatted them for submission.
-📂 Dataset
+
+* __Data Preprocessing__: Encoded categorical features.
+* __Exploratory Data Analysis (EDA)__: Visualized feature correlations and analyzed important factors affecting flight prices.
+* __Machine Learning Model__: Implemented a Random Forest Regressor for price prediction.
+* __Performance Evaluation__: Measured model accuracy using Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R² Score.
+* __Visualization__: Created a scatter plot to compare actual vs predicted flight prices, providing a visual representation of model accuracy.
+* __Final Submission__: Generated predictions and formatted them for submission.
+
+
+## __Dataset__
 
 The dataset includes flight details from March to June 2019 in India, covering:
 
-Airline (e.g., IndiGo, Air India)
-Source & Destination Cities
-Departure & Arrival Time
-Number of Stops
-Class (Economy/Business)
-Days Left for Departure
-🚀 Technologies Used
+* __ID__: A sequential number assigned to each flight record.
+* __Airline__: The name of the airline operating the flight.
+* __Flight__: A unique identifier for each flight.
+* __Source City__: The city from which the flight departs.
+* __Departure Time__: The time at which the flight departs.
+* __Stop__: The number of stops made during the flight.
+* __Arrival Time__: The time at which the flight arrives at its destination.
+* __Destination City__: The city where the flight is headed.
+* __Class__: The class of service (e.g., economy, business, etc.) that the passenger chooses.
+* __Duration__: The total flight duration from departure to arrival.
+* __Days Left__: The number of days remaining until the flight departs.
 
-Python
-Pandas & NumPy – Data manipulation
-Matplotlib & Seaborn – Data visualization
-Scikit-learn – Machine learning & model evaluation
-📊 Model Performance
+## __Technologies Used__
 
-Mean Absolute Error (MAE): 2066.37
-Mean Squared Error (MSE): 15,484,335.83
-Root Mean Squared Error (RMSE): 3935.01
-R² Score: 0.9705
+* __Python__
+* __Pandas & NumPy__ – Data manipulation
+* __Matplotlib & Seaborn__ – Data visualization
+* __Scikit-learn__ – Machine learning & model evaluation
+
+## __Model Performance__
+
+* __Mean Absolute Error (MAE)__: 2066.37
+* __Mean Squared Error (MSE)__: 15,484,335.83
+* __Root Mean Squared Error (RMSE)__: 3935.01
+* __R² Score__: 0.9705
